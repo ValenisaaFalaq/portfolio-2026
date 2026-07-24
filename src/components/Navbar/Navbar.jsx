@@ -1,7 +1,7 @@
 // src/components/Navbar/Navbar.jsx
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import LanguageToggle from "../LanguageToggle/LanguageToggle";
+import LanguageToggle from "../LanguageToggle/Languagetoggle.jsx";
 import "./Navbar.css";
 
 const navLinks = [

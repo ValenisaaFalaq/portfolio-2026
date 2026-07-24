@@ -1,7 +1,7 @@
 // src/data/projects.js
 // Replace placeholder images with your actual project screenshots
 import project1Image from "../assets/images/project5.png";
-import project2Image from "../assets/images/dashboard.png";
+import project2Image from "../assets/images/Dashboard.png";
 import project3Image from "../assets/images/ERD.png";
 
 export const projects = [
