@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "learning": "Learning",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Valenisaa Falaq",
+    "roles": [
+      "Informatics Engineering Student",
+      "Frontend Developer",
+      "Data Enthusiast",
+      "AI & Web Tech Learner"
+    ],
+    "tagline": "Building thoughtful digital experiences at the intersection of design, code, and curiosity.",
+    "cta_projects": "View Projects",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A curious mind in a digital world",
+    "p1": "Hi! I'm Valenisaa, an Informatics Engineering graduate who loves exploring technology and learning new things. My journey started with web development, but along the way I discovered a strong interest in artificial intelligence, data, and how technology can be used to solve real problems.",
+    "p2": "I enjoy building projects from scratch and learning through hands-on experience. For me, every project is a chance to improve not just technically, but also in the way I think and solve problems.",
+    "p3": "These days, I'm focusing on data engineering while continuing to expand my skills in SQL, Python, and modern data tools. I'm always excited to learn, build, and take on new challenges.",
+    "curiosity": "Curiosity-driven",
+    "adaptable": "Adaptable",
+    "growth": "Growth mindset"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My journey so far",
+    "items": {
+      "1": {
+        "title": "Frontend Developer Intern",
+        "company": "PT Baracipta Esa Engineering",
+        "type": "Internship",
+        "duration": "2025",
+        "description": "Developed responsive web interfaces using React and Bootstrap while collaborating with backend developers to deliver scalable and user-friendly applications."
+      },
+      "2": {
+        "title": "Certified Independent Study (MBKM)",
+        "company": "Dicoding x IBM Skills Build",
+        "type": "Study Program",
+        "duration": "2026",
+        "description": "Completed an industry-oriented Artificial Intelligence and Machine Learning program through hands-on projects involving classification, clustering, and predictive model development."
+      },
+      "3": {
+        "title": "AI-Based Child Growth Monitoring — Contributor",
+        "company": "Politeknik Negeri Cilacap",
+        "type": "Project",
+        "duration": "2024–2025",
+        "description": "Assisted in developing an AI-based child growth monitoring system for stunting prevention using Machine Learning algorithms, resulting in an officially copyrighted software project."
+      },
+      "4": {
+        "title": "IoT Automatic Smoking System — Contributor",
+        "company": "Politeknik Negeri Cilacap",
+        "type": "Project",
+        "duration": "2025",
+        "description": "Contributed to the development and technical documentation of an IoT-based automatic smoking system that was officially registered for Indonesian software copyright."
+      },
+      "5": {
+        "title": "Drafter — Technical Drawing Projects",
+        "company": "Academic & Freelance",
+        "type": "Freelance",
+        "duration": "2024–2025",
+        "description": "Produced technical drawings and engineering drafts for various academic and small-scale freelance projects, developing strong attention to detail."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built and contributed to",
+    "view_github": "GitHub",
+    "view_live": "Live Demo",
+    "view_details": "Details",
+    "filter_all": "All",
+    "filter_web": "Web Dev",
+    "filter_ai": "AI",
+    "filter_academic": "Academic",
+    "filter_uiux": "UI/UX",
+    "filter_engineering": "Engineering"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Tools and technologies I work with",
+    "frontend": "Frontend",
+    "languages": "Programming Languages",
+    "ai_data": "AI & Data (Exploring)",
+    "tools": "Tools & Platforms",
+    "soft": "Soft Skills",
+    "exploring_note": "Currently exploring and building foundations in this area"
+  },
+  "learning": {
+    "title": "Currently Learning",
+    "subtitle": "My active growth roadmap",
+    "in_progress": "In Progress",
+    "exploring": "Exploring",
+    "next_up": "Next Up"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Moments, memories, and milestones"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's connect and create something meaningful",
+    "email": "Email Me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "tagline": "Valenisaa Falaq — Growing in tech, one commit at a time.",
+    "copyright": "© 2025 Valenisaa Falaq. Built with ♡ using React.",
+    "made_with": "Made with curiosity & care"
+  }
+}

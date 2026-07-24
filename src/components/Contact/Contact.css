@@ -1,0 +1,129 @@
+/* Contact.css */
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ─── Intro ─── */
+.contact-intro {
+  background: linear-gradient(135deg, #d9eef8 0%, #f4f7d1 100%);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--color-border);
+}
+
+.contact-intro-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-intro-emoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.contact-intro-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin: 0 0 0.35rem;
+}
+
+.contact-intro-text {
+  font-size: 0.93rem;
+  color: var(--color-text-body);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ─── Grid ─── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* ─── Card ─── */
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.4rem;
+  text-decoration: none;
+  background: var(--color-bg-white);
+  transition:
+    transform var(--transition-base),
+    box-shadow var(--transition-base),
+    border-color var(--transition-base);
+}
+
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--contact-color);
+}
+
+.contact-icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: var(--contact-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--contact-color);
+  flex-shrink: 0;
+  transition: background var(--transition-fast);
+}
+
+.contact-card:hover .contact-icon-wrap {
+  background: var(--contact-color);
+  color: #fff;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-label {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+}
+
+.contact-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+}
+
+.contact-arrow {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  transition:
+    transform var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.contact-card:hover .contact-arrow {
+  transform: translateX(4px);
+  color: var(--contact-color);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 500px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

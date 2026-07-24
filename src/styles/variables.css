@@ -1,0 +1,63 @@
+/* ===========================
+   CSS Custom Properties / Variables
+   =========================== */
+
+:root {
+  /* Brand Colors */
+  --color-primary: #2696ce;
+  --color-primary-dark: #1a7aad;
+  --color-primary-light: #d9eef8;
+  --color-accent: #e0a682;
+  --color-accent-dark: #c98a65;
+
+  /* Backgrounds */
+  --color-bg: #f4f7d1;
+  --color-bg-white: #ffffff;
+  --color-bg-card: #f8f8f8;
+  --color-bg-dark: #1f2937;
+
+  /* Text */
+  --color-text-dark: #1f2937;
+  --color-text-body: #374151;
+  --color-text-muted: #6b7280;
+  --color-text-light: #9ca3af;
+
+  /* UI */
+  --color-border: rgba(38, 150, 206, 0.15);
+  --color-border-soft: rgba(38, 150, 206, 0.08);
+  --shadow-soft: 0 4px 24px rgba(38, 150, 206, 0.08);
+  --shadow-card: 0 2px 16px rgba(31, 41, 55, 0.07);
+  --shadow-hover: 0 8px 32px rgba(38, 150, 206, 0.15);
+
+  /* Typography */
+  --font-heading: "Plus Jakarta Sans", "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Spacing */
+  --section-padding: 96px 0;
+  --container-max: 1100px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius-pill: 100px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-base: 0.28s ease;
+  --transition-slow: 0.45s ease;
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(
+    135deg,
+    #d9eef8 0%,
+    #f4f7d1 60%,
+    #fdf3ec 100%
+  );
+  --gradient-primary: linear-gradient(135deg, #2696ce 0%, #1a7aad 100%);
+  --gradient-accent: linear-gradient(135deg, #e0a682 0%, #c98a65 100%);
+  --gradient-card: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+  --gradient-subtle: linear-gradient(180deg, #f4f7d1 0%, #ffffff 100%);
+}

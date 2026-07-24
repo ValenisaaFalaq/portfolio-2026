@@ -1,0 +1,36 @@
+/* LanguageToggle.css */
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--color-bg-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.lang-toggle:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 10px rgba(38, 150, 206, 0.1);
+}
+
+.lang-option {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  transition: color var(--transition-fast);
+}
+
+.lang-option.active {
+  color: var(--color-primary);
+}
+
+.lang-divider {
+  color: var(--color-border);
+  font-size: 0.8rem;
+}

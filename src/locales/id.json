@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "projects": "Proyek",
+    "skills": "Keahlian",
+    "learning": "Belajar",
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "greeting": "Halo, saya",
+    "name": "Valenisaa Falaq",
+    "roles": [
+      "Mahasiswa Teknik Informatika",
+      "Frontend Developer",
+      "Penggemar Data",
+      "Pelajar AI & Teknologi Web"
+    ],
+    "tagline": "Membangun pengalaman digital yang bermakna di persimpangan desain, kode, dan rasa ingin tahu.",
+    "cta_projects": "Lihat Proyek",
+    "cta_cv": "Unduh CV"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Pikiran yang penasaran di dunia digital",
+    "p1": "Saya Valenisaa, lulusan Teknik Informatika yang senang mengeksplorasi teknologi dan terus belajar hal-hal baru. Perjalanan saya dimulai dari pengembangan web, kemudian berkembang menjadi ketertarikan pada kecerdasan buatan, data, dan bagaimana teknologi dapat digunakan untuk menyelesaikan permasalahan nyata.",
+    "p2": "Saya menikmati proses membangun sebuah proyek dari awal hingga selesai dan percaya bahwa pengalaman langsung adalah cara terbaik untuk belajar. Bagi saya, setiap proyek bukan hanya tentang menghasilkan sesuatu, tetapi juga kesempatan untuk terus berkembang, baik dari sisi teknis maupun cara berpikir dalam memecahkan masalah.",
+    "p3": "Saat ini saya sedang berfokus mengembangkan kemampuan di bidang data engineering, sambil terus memperdalam pengetahuan tentang SQL, Python, dan berbagai teknologi data modern. Saya selalu antusias untuk belajar, membangun proyek baru, dan menghadapi tantangan yang dapat membantu saya berkembang sebagai seorang profesional di bidang teknologi.",
+    "curiosity": "Berbasis Rasa Ingin Tahu",
+    "adaptable": "Adaptif",
+    "growth": "Pola Pikir Berkembang"
+  },
+  "experience": {
+    "title": "Pengalaman",
+    "subtitle": "Perjalanan saya sejauh ini",
+    "items": {
+      "1": {
+        "title": "Magang Frontend Developer",
+        "company": "PT Baracipta Esa Engineering",
+        "type": "Magang",
+        "duration": "2025",
+        "description": "Mengembangkan antarmuka web yang responsif menggunakan React dan Bootstrap serta berkolaborasi dengan tim backend untuk membangun aplikasi yang mudah digunakan dan skalabel."
+      },
+      "2": {
+        "title": "Studi Independen Bersertifikat (MBKM)",
+        "company": "Dicoding x IBM Skills Build",
+        "type": "Program Studi",
+        "duration": "2026",
+        "description": "Menyelesaikan program pembelajaran Artificial Intelligence dan Machine Learning berbasis industri melalui proyek klasifikasi, clustering, dan pengembangan model prediktif."
+      },
+      "3": {
+        "title": "Pemantauan Pertumbuhan Anak Berbasis AI — Kontributor",
+        "company": "Politeknik Negeri Cilacap",
+        "type": "Proyek",
+        "duration": "2024–2025",
+        "description": "Berkontribusi dalam pengembangan sistem pemantauan pertumbuhan anak berbasis AI untuk pencegahan stunting menggunakan algoritma Machine Learning hingga menghasilkan perangkat lunak yang memperoleh hak cipta."
+      },
+      "4": {
+        "title": "Sistem Pengasapan Otomatis IoT — Kontributor",
+        "company": "Politeknik Negeri Cilacap",
+        "type": "Proyek",
+        "duration": "2025",
+        "description": "Berkontribusi dalam pengembangan dan dokumentasi teknis sistem pengasapan otomatis berbasis IoT yang telah terdaftar sebagai Hak Cipta Program Komputer di Indonesia."
+      },
+      "5": {
+        "title": "Drafter — Proyek Gambar Teknik",
+        "company": "Akademik & Pekerjaan Lepas",
+        "type": "Pekerjaan Lepas",
+        "duration": "2024–2025",
+        "description": "Membuat gambar teknik dan desain mekanik untuk berbagai proyek akademik serta proyek freelance berskala kecil dengan mengutamakan ketelitian dan akurasi."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "subtitle": "Hal-hal yang telah saya bangun dan berkontribusi",
+    "view_github": "GitHub",
+    "view_live": "Demo Langsung",
+    "view_details": "Detail",
+    "filter_all": "Semua",
+    "filter_web": "Web Dev",
+    "filter_ai": "AI",
+    "filter_academic": "Akademik",
+    "filter_uiux": "UI/UX",
+    "filter_engineering": "Teknik"
+  },
+  "skills": {
+    "title": "Keahlian",
+    "subtitle": "Alat dan teknologi yang saya gunakan",
+    "frontend": "Frontend",
+    "languages": "Bahasa Pemrograman",
+    "ai_data": "AI & Data (Eksplorasi)",
+    "tools": "Alat & Platform",
+    "soft": "Soft Skills",
+    "exploring_note": "Saat ini sedang menjelajahi dan membangun fondasi di area ini"
+  },
+  "learning": {
+    "title": "Sedang Dipelajari",
+    "subtitle": "Peta jalan pertumbuhan aktif saya",
+    "in_progress": "Dalam Proses",
+    "exploring": "Menjelajahi",
+    "next_up": "Berikutnya"
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subtitle": "Momen, kenangan, dan pencapaian"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Mari terhubung dan ciptakan sesuatu yang bermakna",
+    "email": "Kirim Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "tagline": "Valenisaa Falaq — Berkembang di dunia teknologi, satu commit dalam satu waktu.",
+    "copyright": "© 2025 Valenisaa Falaq. Dibuat dengan ♡ menggunakan React.",
+    "made_with": "Dibuat dengan rasa ingin tahu & kepedulian"
+  }
+}

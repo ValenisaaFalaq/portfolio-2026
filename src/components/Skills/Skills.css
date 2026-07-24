@@ -1,0 +1,133 @@
+/* Skills.css */
+
+.skills-container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  padding: 1.75rem;
+  background: var(--color-bg-white);
+}
+
+.skill-card-exploring {
+  border: 1.5px dashed rgba(38, 150, 206, 0.3);
+  background: linear-gradient(135deg, #f8fdff 0%, #f4f7d1 100%);
+}
+
+/* ─── Header ─── */
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.skill-cat-icon {
+  font-size: 1.4rem;
+}
+
+.skill-cat-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin: 0;
+  flex: 1;
+}
+
+.skill-exploring-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-light);
+  border-radius: var(--radius-pill);
+  padding: 0.2rem 0.6rem;
+}
+
+.skill-note {
+  font-size: 0.83rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin: -0.5rem 0 1rem;
+  line-height: 1.5;
+}
+
+/* ─── Progress bars ─── */
+.skill-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.skill-bar-item {
+}
+
+.skill-bar-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.35rem;
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--color-text-body);
+}
+
+.skill-bar-pct {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.skill-bar-track {
+  height: 6px;
+  background: var(--color-border-soft);
+  border-radius: 4px;
+  overflow: hidden;
+  background: rgba(38, 150, 206, 0.08);
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 4px;
+  width: 0%;
+}
+
+.skill-card-exploring .skill-bar-fill {
+  background: linear-gradient(90deg, #7ecba1 0%, var(--color-primary) 100%);
+}
+
+/* ─── Soft skill tags ─── */
+.skill-tags-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.9rem;
+  transition: all var(--transition-fast);
+}
+
+.skill-tag:hover {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
